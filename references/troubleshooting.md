@@ -58,7 +58,7 @@ brew upgrade glab
 sudo apt update && sudo apt upgrade glab
 
 # Windows (depends on winget)
-winget install GLab.GLab
+winget install --scope=machine GLab.GLab
 ```
 
 ## Authentication Issues
